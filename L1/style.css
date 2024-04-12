@@ -1,0 +1,64 @@
+
+div{
+    height: 200px;
+    width: 200px;
+    border: 1px solid #000;
+    background-color: blue;
+    animation-name: shivmohan;
+    animation-duration: 4s;
+    position: relative; 
+    animation-delay: 0s;
+    animation-iteration-count: 2;
+    animation-timing-function: ease-in-out;
+    animation-direction:alternate-reverse;
+    animation-play-state: running;
+}
+
+
+#font{
+    font-size: 2rem;
+    animation-name: komal;
+    animation-duration: 5s;
+    
+}
+
+
+
+
+@keyframes shivmohan {
+   0% {
+       top: 0px;
+       left: 0px;
+     }
+
+    25% {
+        top: 0px;
+        left: 200px;
+    }
+
+    50% {
+         top: 200px;
+         left: 200px;
+    }
+
+    75%{
+       left: 0px;
+       top: 200px;
+    }
+    
+    100% {
+      left: 0px;
+      top: 0px;
+    }
+}
+
+
+@keyframes komal{
+     from {
+         font-size: 2rem;
+     } 
+
+     to {
+        font-size: 4rem;
+     }
+}
